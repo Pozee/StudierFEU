@@ -1,17 +1,9 @@
-body, html {
-  height: 100%;
 }
-
-.bg {
-  /* The image used */
-  background-image: url("https://i.imgur.com/agS3gNf.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+html { 
+  background: url(https://i.imgur.com/agS3gNf.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -19,4 +11,3 @@ h1 {
 text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
   color:white;
   font-size:45px;
-}
