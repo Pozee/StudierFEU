@@ -25,6 +25,9 @@ h1.gladkatt {
 strong {
   background-color: green;
 }
+strong:hover {
+  background-color: orange;
+}
 ul {
  
   list-style-type: none;
