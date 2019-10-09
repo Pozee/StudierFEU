@@ -10,7 +10,7 @@
   body {
     margin:0;
   }
-  ul {
+  ul.nav {
  
     list-style-type: none;
     margin: 0;
@@ -19,7 +19,7 @@
     background-color: #333;
   }
   
-  li {
+  li.nav {
     float: left;
   }
   
@@ -32,7 +32,7 @@
   }
   
   /* Change the link color to #111 (black) on hover */
-  li a:hover {
+   li a:hover {
     background-color: #111;
   }
   #textovanbild {
@@ -40,4 +40,8 @@
   }
   #uppgiftercenter {
     text-align: center;
+  }
+
+  ul {
+    background-color: plum;
   }
