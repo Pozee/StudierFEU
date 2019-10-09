@@ -4,7 +4,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    text-align: center;
+  
   }
   
   body {
@@ -34,4 +34,7 @@
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     background-color: #111;
+  }
+  #textovanbild {
+    margin:0;
   }
