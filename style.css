@@ -26,7 +26,7 @@ strong {
   background-color: green;
 }
 strong:hover {
-  background-color: orange;
+  background-color: rgb(255, 166, 0);
 }
 ul {
  
@@ -53,3 +53,4 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
