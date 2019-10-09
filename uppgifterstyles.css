@@ -7,8 +7,10 @@
   
   }
   
-  body {
+  body  {
     margin:0;
+  }
+  .bodycolor{
     background-color: greenyellow;
   }
   ul.nav {
