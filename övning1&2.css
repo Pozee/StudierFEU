@@ -8,6 +8,7 @@
   }
   
   body  {
+    font-family: Lato;
     margin:0;
   }
   .bodycolor{
@@ -51,4 +52,23 @@
 
   .listfärg li {
     color:darkgrey;
+  }
+  h1 {
+    text-align: left;
+  }
+  
+  #topheader {
+    text-align: left;
+    font-family: Mansalva;
+    background-color:rgb(245, 245, 245);
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    
+  }
+  
+  #topheader:nth-child(2) {
+    text-align: center;
+    position: static;
+    
   }
