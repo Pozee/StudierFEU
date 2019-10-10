@@ -38,5 +38,13 @@ html {
   table {
         margin-left:auto; 
         margin-right:auto;
-      }
   
+      }
+ 
+      th {
+          padding:5px;
+      }
+
+      td{
+          padding:2px;
+      }
