@@ -1,0 +1,59 @@
+html {
+	background: url(https://images.pexels.com/photos/1022218/pexels-photo-1022218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+		no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+body {
+	font-family: Lato;
+	margin: 0;
+}
+ul.nav {
+	font-family: Lato;
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li.nav {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+	background-color: #111;
+}
+
+#divborder {
+	border: solid 2px grey;
+}
+
+#topheader {
+	text-align: left;
+	font-family: Mansalva;
+	background-color: rgb(245, 245, 245);
+	margin: 0;
+	padding: 5px;
+	position: absolute;
+	color: black;
+}
+
+#topheader:nth-child(2) {
+	text-align: center;
+	position: static;
+}
