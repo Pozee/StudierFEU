@@ -18,7 +18,7 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Uppgifter</title>
+    <title>Övningar</title>
   </head>
   <body>
     <a href="index.html">
@@ -26,28 +26,21 @@
     </a>
     <h1 id="topheader">Webbutvecklare - Frontend</h1>
     <!-- <h1 id="topheader">Göteborg</h1> -->
-    <div id="uppgiftercenter">
+    <nav>
+      <div id="headerbar"></div>
       <ul class="nav">
-        <li class="nav"><a href="index.html">Hem</a></li>
-        <li class="nav"><a href="#">Mina uppgifter</a></li>
+        <li class="navmeny"><a href="index.html" class="nava">Hem</a></li>
+        <li id="dropicon" class="navmeny">
+          <a href="#" class="nava">Mina övningar</a>
+          <ul class="navcontent">
+            <li><a href="/övningar/övning1.html">Övning 1</a></li>
+            <li><a href="/övningar/övning2.html">Övning 2</a></li>
+            <li><a href="/övningar/övning3.html">Övning 3</a></li>
+            <li><a href="/övningar/övning4.html">Övning 4</a></li>
+            <li><a href="/övningar/övning5.html">Övning 5</a></li>
+          </ul>
+        </li>
       </ul>
-      <h1>Välkommen till mina uppgifter!</h1>
-
-      <a href="övningar/övning1.html">
-        <p>Övning 1</p>
-      </a>
-      <a href="övningar/övning2.html">
-        <p>Övning 2</p>
-      </a>
-      <a href="övningar/övning3.html">
-        <p>Övning 3</p>
-      </a>
-      <a href="övningar/övning4.html">
-        <p>Övning 4</p>
-      </a>
-      <a href="övningar/övning5.html">
-        <p>Övning 5</p>
-      </a>
-    </div>
+    </nav>
   </body>
 </html>
