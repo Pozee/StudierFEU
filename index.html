@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
   <head>
-    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/artificial-intelligence-6/64/ArtificialIntelligence2-256.png" type="image/x-icon">
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>FEU - Pontus Zetterberg</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://cdn2.iconfinder.com/data/icons/artificial-intelligence-6/64/ArtificialIntelligence2-256.png"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Övningar</title>
   </head>
   <body>
     <a href="index.html">
@@ -14,11 +26,21 @@
     </a>
     <h1 id="topheader">Webbutvecklare - Frontend</h1>
     <!-- <h1 id="topheader">Göteborg</h1> -->
-  <ul class="nav">
-      <li><a href="#">Hem</a></li>
-      <li><a href="uppgifter.html">Mina uppgifter</a></li>
-  </ul>
-
-
+    <nav>
+      <div id="headerbar"></div>
+      <ul class="nav">
+        <li class="navmeny"><a href="index.html" class="nava">Hem</a></li>
+        <li id="dropicon" class="navmeny">
+          <a href="#" class="nava">Mina övningar</a>
+          <ul class="navcontent">
+            <li><a href="/övningar/övning1.html">Övning 1</a></li>
+            <li><a href="/övningar/övning2.html">Övning 2</a></li>
+            <li><a href="/övningar/övning3.html">Övning 3</a></li>
+            <li><a href="/övningar/övning4.html">Övning 4</a></li>
+            <li><a href="/övningar/övning5.html">Övning 5</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
