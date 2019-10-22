@@ -8,7 +8,7 @@ html {
 body {
   margin: 0;
 }
-aside {
+nav {
   font-family: lato;
   font-weight: 700;
   height: 175px; /* Full-height: remove this if you want "auto" height */
@@ -25,13 +25,13 @@ aside {
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
   border-radius: 0px 5px 5px 0px;
 }
-aside a {
+nav a {
   display: block;
   text-decoration: none;
   color: black;
   padding: 10px;
 }
-aside a:hover {
+nav a:hover {
   border-left: 4px solid black;
 }
 
@@ -70,25 +70,27 @@ aside a:hover {
 }
 .myimg {
   padding: 10px;
-  width:12.5em;
-  height:12.5em;
+  width: 12.5em;
+  height: 12.5em;
   object-fit: cover;
-  border-radius:50%;
+  border-radius: 50%;
   display: inline-block;
 }
-.floated  {
+.floated {
   float: right;
 }
 .bodycontent p {
   margin-top: 0;
   margin-bottom: 0;
   display: inline-block;
-  font-size: 1.130em;
+  font-size: 1.13em;
 }
 .bodycontent :first-child {
   display: inline;
 }
+.bodycontent p:nth-child(2) {
+  margin-top: 10px;
+}
 .paragraf-div {
   padding: 5px;
 }
-
