@@ -85,7 +85,7 @@ aside a:hover {
   display: inline-block;
   font-size: 1.130em;
 }
-.bodycontent p:first-of-type {
+.bodycontent :first-child {
   display: inline;
 }
 .paragraf-div {
