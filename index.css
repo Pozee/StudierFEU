@@ -65,13 +65,30 @@ aside a:hover {
   -webkit-box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
-  overflow: hidden;
+  overflow-y: auto;
   margin-top: 45px;
 }
+
 .bodycontent p {
   padding: 5px;
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1.140em;
+  margin-top: 0;
+}
+.bodycontent p:first-of-type {
+  position: absolute;
+
+}
+.myimg{
+  top: 10px;
+  right: 10px;
+  float: right;
+  position: relative;
+  width:200px;
+  height:200px;
+  object-fit: cover;
+  border-radius:50%;
+  
 }
 /* .footer {
   position: absolute;
