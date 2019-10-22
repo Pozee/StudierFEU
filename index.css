@@ -72,13 +72,10 @@ aside a:hover {
 .bodycontent p {
   padding: 5px;
   display: inline-block;
-  font-size: 1.140em;
+  font-size: 1.130em;
   margin-top: 0;
 }
-.bodycontent p:first-of-type {
-  position: absolute;
 
-}
 .myimg{
   top: 10px;
   right: 10px;
