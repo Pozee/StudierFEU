@@ -56,7 +56,7 @@ aside a:hover {
 }
 .bodycontent {
   background-color: #ffffff;
-  width: 50%;
+  width: 50vw;
   height: 80%;
   position: absolute;
   left: 50%;
@@ -82,8 +82,8 @@ aside a:hover {
   right: 10px;
   float: right;
   position: relative;
-  width:200px;
-  height:200px;
+  width:12.5em;
+  height:12.5em;
   object-fit: cover;
   border-radius:50%;
   
