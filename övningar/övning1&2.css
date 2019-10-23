@@ -1,72 +1,109 @@
 html {
-	background: url(https://images.pexels.com/photos/1022218/pexels-photo-1022218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
-		no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  background: url(../Bilder/lumber-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
-	font-family: Lato;
-	margin: 0;
-}
-.bodycolor {
-	background-color: greenyellow;
-}
-ul.nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+  font-family: Lato;
+  margin: 0;
 }
 
-li.nav {
-	float: left;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-	background-color: #111;
-}
 #textovanbild {
-	margin: 0;
+  margin: 0;
 }
 #uppgiftercenter {
-	text-align: center;
+  text-align: center;
 }
 
 ul {
-	background-color: plum;
+  background-color: plum;
 }
 
 .listfärg li {
-	color: darkgrey;
+  color: darkgrey;
 }
 h1 {
-	text-align: center;
+  text-align: center;
 }
 
 #topheader {
-	text-align: left;
-	font-family: Mansalva;
-	background-color: rgb(245, 245, 245);
-	margin: 0;
-	padding: 5px;
-	position: absolute;
-	color: black;
+  text-align: left;
+  font-family: Mansalva;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  color: black;
 }
 
 #topheader:nth-child(2) {
-	text-align: center;
-	position: static;
+  text-align: center;
+  position: static;
+}
+nav {
+  font-family: lato;
+  font-weight: 700;
+  height: 175px; /* Full-height: remove this if you want "auto" height */
+  width: 165px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #ffffffd2;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 10px;
+  margin-top: 133px;
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 5px 5px 0px;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+nav a:hover {
+  border-left: 4px solid black;
+}
+.topheader h1 {
+  font-size: 3em;
+  font-family: slabo;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #000000;
+}
+.fa-laptop-code {
+  margin-left: 10px;
+}
+
+.content {
+  margin-top: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.content p {
+  font-size: 1.5em;
+  font-family: slabo;
+  color: white;
+  text-shadow: 2px 2px 1px #000000;
+}
+.content h3 {
+  font-size: 2em;
+  font-family: slabo;
+  color: white;
+  text-shadow: 2px 1px 1px #000000;
+}
+.övning2-content {
+  position: absolute;
+  background-color: greenyellow;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }

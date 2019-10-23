@@ -1,0 +1,46 @@
+header,
+main,
+footer {
+  border: 2px solid gray;
+  margin: 2px;
+  padding: 0.2em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.container footer {
+  flex: 0 0 2em;
+}
+.container header {
+  flex: 0 0 2em;
+}
+.container main {
+  flex: 1 1 auto;
+}
+
+.container main {
+  display: flex;
+  flex-direction: row;
+}
+.container main > * {
+  border: 1px solid lightgray;
+  padding: 2px;
+  margin: 2px;
+  flex-grow: 0;
+  flex-basis: 4em;
+}
+.container main > article {
+  flex-grow: 1;
+}
+@media only screen and (max-width: 800px) {
+  .container main {
+    flex-direction: column;
+  }
+  .container main nav,
+  .container main aside {
+    flex-basis: 2em;
+    order: 2;
+  }
+}
