@@ -34,6 +34,9 @@ footer {
 .container main > article {
   flex-grow: 1;
 }
+nav {
+  background-color: lime;
+}
 @media only screen and (max-width: 800px) {
   .container main {
     flex-direction: column;
